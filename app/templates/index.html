@@ -1,0 +1,60 @@
+{% extends './layout.html' %}
+
+{% block container %}
+  <!-- Main Content -->
+  <main>
+    <!-- Imágenes con enlaces -->
+    <div class="portfolio">
+      <img src="../static/img/1.jpeg" alt="Productos" class="portfolio-image">
+      <a href="productos.html" class="portfolio-link"><h2>PRODUCTOS</h2></a>
+    </div>
+    
+    <div class="portfolio">
+      <img src="../static/img/2.jpeg" alt="Travel" class="portfolio-image">
+      <a href="travel.html" class="portfolio-link"><h2>VIAJES</h2></a>
+    </div>
+
+    <div class="portfolio">
+      <img src="../static/img/3.jpeg" alt="Retratos" class="portfolio-image">
+      <a href="retratos.html" class="portfolio-link"><h2>RETRATOS</h2></a>
+    </div>
+
+  </main>
+
+    <!-- Botón de contacto fuera del footer -->
+  <a href="contacto.html" class="contact-button">CONTACTO</a>
+
+  <div class="yo">
+    <div class="informacion">
+      <h2>PABLO BAUER</h2>
+      <p>Soy Pablo Bauer, un entusiasta apasionado por inmortalizar la magia de destinos fascinantes en todo el mundo. Mi enfoque se centra en tejer narrativas visuales que transporten a quienes las experimentan a la viva esencia de la aventura. Cada producción no solo busca resaltar la extraordinaria belleza natural, sino también despertar una conexión emocional y un profundo respeto por nuestro entorno.<br>
+
+      <br>En mi mundo cinematográfico, la exploración se convierte en una expresión artística que va más allá de la mera observación. Así, invito a aquellos que deseen compartir esta pasión a sumergirse en un viaje visual que celebra la diversidad de nuestro planeta y resalta la importancia de preservar sus maravillas para el resto de las generaciones.</p>
+    </div>
+    <div class="imagen">
+      <img src="../static/img/perfil.png" alt="Mi Foto">
+    </div>
+  </div>
+
+  <div class="last-project">
+    <h4>2024</h4>
+    <h3>||| ___________________________________</h3>
+    <h2>LAST PROJECT</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BwGb9rfpoWY?si=Gv04i6u7OwCIHU3G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h3>__ __</h3>
+  </div>
+
+  <div class="last-project-text">
+    <h2> <font color=#436318>"</font>La naturaleza es un gran escenario donde ocurren historias maravillosas. Su belleza simple es la esencia misma de la inspiración cinematográfica.<font color=#436318>"</font></h2>
+    <h3><font color=#436318>//</font> Terrence Malick</h3>
+  </div>
+
+  <div class="work-with-us">
+    <a href=""><img src="../static/img/work_with_us_banner.jpg"></a>
+  </div>
+
+  <div class="work-with-us-title">
+    <h3><font color=#436318>WORK </font><font color=#fff style='font-family:NameFont'>WITH US</font></h3>
+  </div>
+
+{% endblock %}

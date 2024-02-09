@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/layout.css') }}">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1><a href="/home"><img src="../static/img/logo_filmmaker.png" alt="logo-pablo-bauer"></a></h1>
+  </header>
+
+  {% block container %}
+  {% endblock %}
+
+  <!-- Footer -->
+  <footer>
+    <a href="https://www.instagram.com/" target="_blank" class="social-links"><img src="../static/img/ig_logo.png" alt="Instagram"></a>
+    <a href="https://www.youtube.com/" target="_blank" class="social-links"><img src="../static/img/yt_logo.png" alt="YouTube"></a>
+    <p>&copy; 2024</p>
+  </footer>
+
+</body>
+</html>
