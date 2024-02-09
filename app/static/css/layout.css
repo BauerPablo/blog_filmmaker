@@ -263,6 +263,39 @@ footer img {
   letter-spacing: 15px;
 }
 
+.gallery-container {
+  box-sizing: border-box;
+  margin: 0px 120px;
+  padding: 0;
+}
+
+.gallery-title {
+  margin: 20px;
+  font-family: 'NamePortfolio';
+  font-size: 45px;
+  letter-spacing: 15px;
+}
+
+.gallery {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+.column {
+  flex: 24%;
+  padding: 5px;
+}
+
+.column img {
+  margin: 5px;
+  box-shadow: 0px 0px 30px #000;
+}
+
 @media only screen and (max-width: 600px) {
   /* Estilos para dispositivos con un ancho de pantalla máximo de 600px */
   header, footer {
@@ -276,5 +309,16 @@ footer img {
 
   .portfolio-link {
     margin: 15px 0; /* Ajuste del margen entre las imágenes para dispositivos más pequeños */
+  }
+
+  .column {
+    flex: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+  .column {
+    flex: 50%;
   }
 }
