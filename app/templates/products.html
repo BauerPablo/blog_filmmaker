@@ -2,13 +2,15 @@
 
 {% block container %}
   <!-- Main Content -->
-  <div class="gallery-container">
+  <div class="container">
     <!-- Imágenes con enlaces -->
     <div class="gallery-title">{{data.area}}</div>
 
     <div class="gallery">
       <div class="column">
-        <img alt="ph 1" src="../static/img/gallery/products/ph_1.jpg">
+        <a href="../static/img/gallery/products/ph_1.jpg" data-lightbox="models" data-title="image1">
+          <img alt="ph 1" src="../static/img/gallery/products/ph_1.jpg">
+        </a>
         <img alt="ph 2" src="../static/img/gallery/products/ph_2.jpg">
         <img alt="ph 3" src="../static/img/gallery/products/ph_3.jpg">
         <img alt="ph 4" src="../static/img/gallery/products/ph_4.jpg">
@@ -40,5 +42,6 @@
       </div>
     </div>
   </div>
+  <script src="../javascript/lightbox-plus-jquery.min.js"></script>
 
 {% endblock %}

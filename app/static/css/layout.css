@@ -257,13 +257,13 @@ footer img {
 .work-with-us-title h3 {
   position: absolute;
   margin: 40px 0px;
-  font-size: 70px;
+  font-size: 55px;
   left: 3%;
-  transform: translate(0%, -550%);
-  letter-spacing: 15px;
+  transform: translate(0%, -700%);
+  letter-spacing: 10px;
 }
 
-.gallery-container {
+.container {
   box-sizing: border-box;
   margin: 0px 120px;
   padding: 0;
@@ -319,6 +319,6 @@ footer img {
 @media only screen and (max-width: 800px) {
 
   .column {
-    flex: 50%;
+    flex: 46%;
   }
 }
